@@ -7,7 +7,7 @@ public class ByAmountComparator implements Comparator<Item> {
         if(comparisonResult == 0) {
             return comparisonResult;
         }else {
-            return -comparisonResult;
+            return comparisonResult+2;
         }
     }
 }
